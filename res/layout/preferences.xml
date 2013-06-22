@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory
+                android:title="Android Swim Settings">
+                <CheckBoxPreference
+                	android:title="Private Message Notifications"
+                	android:defaultValue="true"
+                	android:summary="Enable/Disable private message alerts"
+                	android:key="notificationpref" />
+                <CheckBoxPreference
+                	android:title="Automatic Log In"
+                	android:defaultValue="true"
+                	android:summary="Enable/Disable automatic log in"
+                	android:key="autologinpref" />
+                <CheckBoxPreference
+                	android:title="Log In Notifications"
+                	android:defaultValue="true"
+                	android:summary="Enable/Disable log in notifications"
+                	android:key="autologinnoticepref" />
+                <CheckBoxPreference
+                	android:title="Alternate Board List"
+                	android:defaultValue="false"
+                	android:summary="Shows message counts, but is slower"
+                	android:key="blpref" />
+                <PreferenceScreen
+	                android:key="floatprefs"
+	                android:title="Floated Boards"
+	                android:summary="Manage which folders appear in the Home button dropdown">
+	                <ListPreference
+	                       	android:title="Float One"
+	                        android:summary=""
+	                        android:key="floatone"
+	                        android:entries="@array/float_title_array"
+	                        android:entryValues="@array/float_value_array" />
+	                <ListPreference
+	                       	android:title="Float Two"
+	                        android:summary=""
+	                        android:key="floattwo"
+	                        android:entries="@array/float_title_array"
+	                        android:entryValues="@array/float_value_array" />
+	                <ListPreference
+	                       	android:title="Float Three"
+	                        android:summary=""
+	                        android:key="floatthree"
+	                        android:entries="@array/float_title_array"
+	                        android:entryValues="@array/float_value_array" />
+	                <ListPreference
+	                       	android:title="Float Four"
+	                        android:summary=""
+	                        android:key="floatfour"
+	                        android:entries="@array/float_title_array"
+	                        android:entryValues="@array/float_value_array" />
+	                <ListPreference
+	                       	android:title="Float Five"
+	                        android:summary=""
+	                        android:key="floatfive"
+	                        android:entries="@array/float_title_array"
+	                        android:entryValues="@array/float_value_array" />
+	                <ListPreference
+	                       	android:title="Float Six"
+	                        android:summary=""
+	                        android:key="floatsix"
+	                        android:entries="@array/float_title_array"
+	                        android:entryValues="@array/float_value_array" />
+	                <ListPreference
+	                       	android:title="Float Seven"
+	                        android:summary=""
+	                        android:key="floatseven"
+	                        android:entries="@array/float_title_array"
+	                        android:entryValues="@array/float_value_array" />
+	                <ListPreference
+	                       	android:title="Float Eight"
+	                        android:summary=""
+	                        android:key="floateight"
+	                        android:entries="@array/float_title_array"
+	                        android:entryValues="@array/float_value_array" />
+	                <ListPreference
+	                       	android:title="Float Nine"
+	                        android:summary=""
+	                        android:key="floatnine"
+	                        android:entries="@array/float_title_array"
+	                        android:entryValues="@array/float_value_array" />
+	                <ListPreference
+	                       	android:title="Float Ten"
+	                        android:summary=""
+	                        android:key="floatten"
+	                        android:entries="@array/float_title_array"
+	                        android:entryValues="@array/float_value_array" />
+	                
+                </PreferenceScreen>
+                <PreferenceScreen
+	                android:key="ThirdPrefScreen"
+	                android:title="Dropdown Settings"
+	                android:summary="Manage the default items in the Home button dropdown">
+		        <CheckBoxPreference
+		                	android:title="Subscriptions"
+		                	android:defaultValue="false"
+		                	android:summary="Show a link to your subscriptions"
+		                	android:key="subspref" />
+		         <CheckBoxPreference
+		                	android:title="Friends List"
+		                	android:defaultValue="true"
+		                	android:summary="Show a link to your friends list"
+		                	android:key="frndspref" />
+		         <CheckBoxPreference
+		                	android:title="Inbox"
+		                	android:defaultValue="true"
+		                	android:summary="Show a link to your inbox"
+		                	android:key="inbxpref" />
+		         <CheckBoxPreference
+		                	android:title="Index"
+		                	android:defaultValue="true"
+		                	android:summary="Show a link to the board index"
+		                	android:key="indxpref" />
+		         <CheckBoxPreference
+		                	android:title="Tracker"
+		                	android:defaultValue="true"
+		                	android:summary="Show a link to your tracker"
+		                	android:key="trkrpref" />
+		         <CheckBoxPreference
+		                	android:title="Home"
+		                	android:defaultValue="true"
+		                	android:summary="Show a link to the home screen"
+		                	android:key="homepref" />
+	         </PreferenceScreen>
+        </PreferenceCategory>
+        <PreferenceCategory
+                android:title="Super Science">
+	        <EditTextPreference
+	                android:name="EditText Preference"
+	                android:summary="This does nothing"
+	                android:defaultValue="YEEEEAAAAHHHHH!!!!!!"
+	                android:title="String"
+	                android:key="editTextPref" />
+	        
+	        <PreferenceScreen
+	                android:key="SecondPrefScreen"
+	                android:title="Appearance Settings"
+	                android:summary="Themes, emoticon settings, etc.">
+	                <ListPreference
+	                        android:title="Select Theme"
+	                        android:summary=""
+	                        android:key="themePref"
+	                        android:defaultValue="default"
+	                        android:entries="@array/themeArray"
+	                        android:entryValues="@array/themeValues" />
+	                <ListPreference
+	                        android:title="Select Emoticon Type"
+	                        android:summary=""
+	                        android:key="smileyPref"
+	                        android:defaultValue="robot"
+	                        android:entries="@array/smileyArray"
+	                        android:entryValues="@array/smileyValues" />
+	                <ListPreference
+	                        android:title="Select Thread Icon Type"
+	                        android:summary=""
+	                        android:key="iconPref"
+	                        android:defaultValue="standard"
+	                        android:entries="@array/iconArray"
+	                        android:entryValues="@array/iconValues" />
+	        </PreferenceScreen>
+	        
+        </PreferenceCategory>
+        
+</PreferenceScreen>

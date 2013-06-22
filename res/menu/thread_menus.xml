@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/tracker"
+        android:title="View Tracker"
+  />
+  <item android:id="@+id/sendpm"
+        android:title="Send Private Message"
+  />
+  <item android:id="@+id/openthread"
+        android:title="Open Thread"
+  />
+  <item android:id="@+id/goPage"
+        android:title="Go to page ..."
+  />
+  <item android:id="@+id/kudo"
+        android:title="Give kudos to this post"
+  />
+  <item android:id="@+id/edit"
+        android:title="Edit Message"
+  />
+  <item android:id="@+id/externallinks"
+        android:title="Open Links"
+  />
+  <item android:id="@+id/friendAdd"
+        android:title="Add as friend"
+  />
+</menu>

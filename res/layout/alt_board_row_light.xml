@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:background="#00000000">
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:background="@drawable/row_light">
+		<ImageView
+			android:id="@+id/fldr"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:layout_centerVertical="true"
+			android:layout_marginLeft="10px"
+			android:src="@drawable/folder"
+			/>
+		
+		<TextView 
+			android:id="@+id/boardtitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:text="title"
+			android:layout_toRightOf="@+id/fldr"
+			android:paddingTop="20sp"
+			android:paddingBottom="5sp"
+			android:paddingLeft="15sp"
+			android:textColor="#363636"
+	       />
+		<TextView 
+			android:id="@+id/msgcnt"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:textSize="12sp"
+			android:textColor="#333333"
+			android:text="count"
+			android:paddingRight="5dp"
+			android:paddingBottom="2dp"
+			android:gravity="right"
+			android:layout_below="@+id/boardtitle"
+			android:layout_alignParentRight="true"/>
+		
+
+	</RelativeLayout>
+</LinearLayout>

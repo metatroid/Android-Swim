@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:theme="@android:style/Theme.NoTitleBar"
+    >
+	
+	<ListView 
+		android:id="@+id/boardsel"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="#ff111111"
+		android:divider="#444"
+		android:dividerHeight="1px"
+		android:listSelector="@drawable/selected">
+	</ListView>
+	
+</RelativeLayout>

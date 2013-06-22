@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<RelativeLayout  
+    	android:id="@+id/astitle"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="42dp"
+	    android:layout_alignParentTop="true"
+	    android:background="@drawable/title_gradient">
+	    <RelativeLayout
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="fill_parent">
+	    	<!-- 
+	    	<ImageView
+				android:id="@+id/titleicon"
+				android:layout_width="wrap_content"
+				android:layout_height="40px"
+				android:paddingLeft="25px"
+				android:src="@drawable/titleicon"/>
+			-->
+		    <TextView android:layout_width="wrap_content"
+		        android:layout_height="42dp" android:id="@+id/title"
+		        android:text="[android swim]" 
+		        android:textColor="#eaeaea"
+		        android:paddingLeft="13px"
+		        android:paddingBottom="8dp"
+		        android:gravity="bottom"
+		        android:textSize="16dp"
+		        android:textStyle="normal"
+		        android:shadowColor="#aa000000"
+				android:shadowDx="-3.0"
+				android:shadowDy="2.0"
+				android:shadowRadius="1.0"/>
+			
+		</RelativeLayout>
+	    <LinearLayout
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent"
+	    	android:orientation="horizontal"
+	    	android:gravity="right">
+		
+			<ImageView
+				android:id="@+id/vdiv"
+				android:layout_width="5dp"
+				android:layout_height="42dp"
+				android:paddingRight="3dp"
+				android:paddingTop="5dp"
+				android:src="@drawable/vdivider"
+				/>
+				
+			<ImageButton
+				android:id="@+id/lst"
+				android:layout_width="42dp"
+				android:layout_height="42dp"
+				android:paddingRight="5dp"
+				android:paddingLeft="2dp"
+				android:gravity="center"
+				android:src="@drawable/homepixel"
+				android:background="@null"
+				/>
+				
+			<ImageView
+				android:id="@+id/vdiv"
+				android:layout_width="5dp"
+				android:layout_height="42dp"
+				android:paddingRight="3dp"
+				android:paddingTop="5dp"
+				android:src="@drawable/vdivider"
+				/>
+			<ImageButton
+				android:id="@+id/rep"
+				android:layout_width="42dp"
+				android:layout_height="42dp"
+				android:paddingRight="3dp"
+				android:paddingLeft="2dp"
+				android:gravity="center"
+				android:src="@drawable/messagepixel"
+				android:background="@null"
+				/>
+		</LinearLayout>
+    </RelativeLayout>
+    <EditText 
+		android:id="@+id/subjectbar"
+		android:layout_width="fill_parent" android:maxLength="50"
+        android:layout_height="wrap_content" android:gravity="top"
+        android:singleLine="true" android:hint="Subject"
+        android:layout_marginLeft="10dip" android:layout_marginRight="10dip"
+		android:layout_marginTop="10px" />
+	<EditText 
+		android:id="@+id/postarea"
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:gravity="top"
+        android:singleLine="false" android:layout_weight="1"
+        android:layout_marginLeft="10dip" android:layout_marginRight="10dip"
+		android:layout_marginTop="10px" android:hint="Body"
+		android:inputType="textAutoCorrect|textCapSentences|textMultiLine"
+        android:imeOptions="flagNoEnterAction" />
+    <Button android:layout_width="fill_parent"
+        android:layout_height="25dp" android:id="@+id/sendpost"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5px"
+        android:text="Post Thread" android:layout_below="@id/postarea"
+        android:background="@layout/button" android:textColor="#000000" />
+
+</LinearLayout>

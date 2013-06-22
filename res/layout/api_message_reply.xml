@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#111"
+    >
+	<RelativeLayout  
+    	android:id="@+id/astitle"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="42dp"
+	    android:layout_alignParentTop="true"
+	    android:background="@drawable/title_gradient">
+	    <RelativeLayout
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="fill_parent">
+	    	<!-- 
+	    	<ImageView
+				android:id="@+id/titleicon"
+				android:layout_width="wrap_content"
+				android:layout_height="40px"
+				android:paddingLeft="25px"
+				android:src="@drawable/titleicon"/>
+			-->
+		    <TextView android:layout_width="wrap_content"
+		        android:layout_height="42dp" android:id="@+id/title"
+		        android:text="[android swim]" 
+		        android:textColor="#eaeaea"
+		        android:paddingLeft="13px"
+		        android:paddingBottom="8dp"
+		        android:gravity="bottom"
+		        android:textSize="16dp"
+		        android:textStyle="normal"
+		        android:shadowColor="#aa000000"
+				android:shadowDx="-3.0"
+				android:shadowDy="2.0"
+				android:shadowRadius="1.0"/>
+			
+		</RelativeLayout>
+	    <LinearLayout
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent"
+	    	android:orientation="horizontal"
+	    	android:gravity="right">
+		
+			<ImageView
+				android:id="@+id/vdiv"
+				android:layout_width="5dp"
+				android:layout_height="42dp"
+				android:paddingRight="3dp"
+				android:paddingTop="5dp"
+				android:src="@drawable/vdivider"
+				/>
+				
+			<ImageButton
+				android:id="@+id/lst"
+				android:layout_width="42dp"
+				android:layout_height="42dp"
+				android:paddingRight="5dp"
+				android:paddingLeft="2dp"
+				android:gravity="center"
+				android:src="@drawable/homepixel"
+				android:background="@null"
+				/>
+				
+			<ImageView
+				android:id="@+id/vdiv"
+				android:layout_width="5dp"
+				android:layout_height="42dp"
+				android:paddingRight="3dp"
+				android:paddingTop="5dp"
+				android:src="@drawable/vdivider"
+				/>
+			<ImageButton
+				android:id="@+id/rep"
+				android:layout_width="42dp"
+				android:layout_height="42dp"
+				android:paddingRight="3dp"
+				android:paddingLeft="2dp"
+				android:gravity="center"
+				android:src="@drawable/messagepixel"
+				android:background="@null"
+				/>
+		</LinearLayout>
+    </RelativeLayout>
+    <ScrollView 
+    	android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:scrollbarStyle="outsideInset"
+        android:fillViewport="true" >
+        <LinearLayout
+        	android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+		    <EditText 
+				android:id="@+id/msgsubjectbar"
+				android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:singleLine="true" android:hint="Subject"
+		        android:layout_marginLeft="10dip" android:layout_marginRight="10dip"
+				android:layout_marginTop="10px"/>
+			<EditText 
+				android:id="@+id/msgtobar"
+				android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:singleLine="true" android:hint="Recipient"
+		        android:layout_marginLeft="10dip" android:layout_marginRight="10dip"
+				android:layout_marginTop="10px" />
+			<RelativeLayout
+		    	android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:orientation="horizontal"
+		    	android:gravity="right">
+		    	<TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textSize="12dp"
+			        android:paddingRight="10dp"
+			        android:paddingBottom="3dp"
+			        android:text="Quote"
+			        />
+				<ImageButton
+					android:id="@+id/quote"
+					android:layout_width="wrap_content"
+					android:layout_height="42dp"
+					android:paddingRight="5dp"
+					android:paddingTop="10dp"
+					android:gravity="right|bottom"
+					android:src="@drawable/quote"
+					android:background="@null"
+					/>
+			</RelativeLayout>
+			<EditText 
+				android:id="@+id/msgreplyarea"
+				android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" android:gravity="top"
+		        android:layout_weight="1.0" android:hint="Body"
+		        android:layout_marginLeft="10dip" android:layout_marginRight="10dip"
+				android:layout_marginTop="10px" android:minHeight="120dip"
+				android:inputType="textAutoCorrect|textCapSentences|textMultiLine"
+		        android:imeOptions="actionDone|flagNoEnterAction" />
+			<Button android:layout_width="fill_parent"
+		        android:layout_height="50dp" android:id="@+id/sendmsgreply"
+		        android:layout_centerHorizontal="true"
+		        android:layout_marginTop="10px" android:layout_marginBottom="25px"
+		        android:text="Send" android:layout_below="@id/msgreplyarea"
+		        android:background="@layout/button" android:textColor="#000000" />
+		    <LinearLayout
+		    	android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical" 
+	            android:paddingTop="22dp"
+	            android:paddingLeft="5dp"
+	            android:paddingRight="5dp">
+		    	<TextView
+			        android:layout_width="fill_parent"
+			        android:layout_height="28dp"
+			        android:textSize="16dp"
+			        android:paddingBottom="5dp"
+			        android:text="Original Message"
+			        />
+			     <LinearLayout
+					android:background="#aaa"
+					android:layout_width="fill_parent"
+		       		android:layout_height="1dp"></LinearLayout>
+		       	<TextView
+		       		android:id="@+id/originalmsg"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:textSize="14dp"
+			        android:paddingTop="10dp"
+			        android:paddingBottom="5dp"
+			        android:text="Message"
+			        />
+		    </LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+    
+
+</LinearLayout>

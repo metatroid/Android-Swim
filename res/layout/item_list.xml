@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <RelativeLayout  
+    	android:id="@+id/astitle"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="42dp"
+	    android:layout_alignParentTop="true"
+	    android:background="@drawable/title_gradient">
+	    <RelativeLayout
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="fill_parent">
+	    	<!-- 
+	    	<ImageView
+				android:id="@+id/titleicon"
+				android:layout_width="wrap_content"
+				android:layout_height="40px"
+				android:paddingLeft="25px"
+				android:src="@drawable/titleicon"/>
+			-->
+		    <TextView android:layout_width="wrap_content"
+		        android:layout_height="42dp" android:id="@+id/title"
+		        android:text="[android swim]" 
+		        android:textColor="#eaeaea"
+		        android:paddingLeft="13px"
+		        android:paddingBottom="8dp"
+		        android:gravity="bottom"
+		        android:textSize="16dp"
+		        android:textStyle="normal"
+		        android:shadowColor="#aa000000"
+				android:shadowDx="-3.0"
+				android:shadowDy="2.0"
+				android:shadowRadius="1.0"/>
+			
+		</RelativeLayout>
+	    <LinearLayout
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent"
+	    	android:orientation="horizontal"
+	    	android:gravity="right">
+		
+			<ImageView
+				android:id="@+id/vdiv"
+				android:layout_width="5dp"
+				android:layout_height="42dp"
+				android:paddingRight="3dp"
+				android:paddingTop="5dp"
+				android:src="@drawable/vdivider"
+				/>
+				
+			<ImageButton
+				android:id="@+id/lst"
+				android:layout_width="42dp"
+				android:layout_height="42dp"
+				android:paddingRight="5dp"
+				android:paddingLeft="2dp"
+				android:gravity="center"
+				android:src="@drawable/homepixel"
+				android:background="@null"
+				/>
+				
+			<ImageView
+				android:id="@+id/vdiv"
+				android:layout_width="5dp"
+				android:layout_height="42dp"
+				android:paddingRight="3dp"
+				android:paddingTop="5dp"
+				android:src="@drawable/vdivider"
+				/>
+			<ImageButton
+				android:id="@+id/rep"
+				android:layout_width="42dp"
+				android:layout_height="42dp"
+				android:paddingRight="3dp"
+				android:paddingLeft="2dp"
+				android:gravity="center"
+				android:src="@drawable/messagepixel"
+				android:background="@null"
+				/>
+		</LinearLayout>
+    </RelativeLayout>
+    <!-- I don't know why this button is needed here... but the layout breaks if I remove it.  -->
+    <Button android:layout_width="0px"
+        android:layout_height="0px" android:id="@+id/nextbtn"
+        android:text="" android:layout_alignParentBottom="true"
+        android:background="#00000000" android:textColor="#000000" />
+    <!-- It was originally written for a purpose, now it's just extra bytes. -->
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/android:list"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#00000000"
+		android:divider="#777"
+		android:dividerHeight="1px"
+		android:layout_above="@id/nextbtn"
+		android:layout_below="@id/astitle"
+		android:listSelector="@drawable/selected">
+	</ListView>
+	
+</RelativeLayout>

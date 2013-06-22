@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AndroidSwim!</string>
+    <string name="app_name">AndroidSwim</string>
+    <string-array name="themeArray">
+	    <item>"Default"</item>
+	    <item>"Light"</item>
+	    <item>"Dark"</item>
+    </string-array>
+    <string-array name="themeValues">
+    	<item>"default"</item>
+	    <item>"light"</item>
+	    <item>"dark"</item>
+    </string-array>
+    <string-array name="smileyArray">
+	    <item>"Robot"</item>
+	    <item>"Plain"</item>
+	    <item>"None"</item>
+    </string-array>
+    <string-array name="smileyValues">
+    	<item>"robot"</item>
+	    <item>"plain"</item>
+	    <item>"none"</item>
+	</string-array>
+	<string-array name="iconArray">
+	    <item>"Standard"</item>
+	    <item>"Aperture Science"</item>
+	    <item>"Pixel"</item>
+	    <item>"None"</item>
+    </string-array>
+    <string-array name="iconValues">
+    	<item>"standard"</item>
+	    <item>"science"</item>
+	    <item>"pixel"</item>
+	    <item>"none"</item>
+    </string-array>
+    <string-array name="boards_array">
+		<item>"Incoherent Babbling"</item>
+		<item>"Babbling"</item>
+		<item>"Rants"</item>
+		<item>"quantized television psychotics"</item>
+		<item>"General Games"</item>
+		<item>"General Music"</item>
+		<item>"General Action"</item>
+		<item>"The Big O"</item>
+		<item>"Blood+"</item>
+		<item>"Cowboy Bebop"</item>
+		<item>"Fullmetal Alchemist"</item>
+		<item>"InuYasha"</item>
+		<item>"Moribito"</item>
+		<item>"Fan Fiction"</item>
+		<item>"Bleach"</item>
+		<item>"Code Geass"</item>
+		<item>"Death Note"</item>
+		<item>"Ghost in the Shell"</item>
+		<item>"Kekkaishi"</item>
+		<item>"Other Anime"</item>
+		<item>"General Comedy"</item>
+		<item>"American Dad"</item>
+		<item>"Assy McGee"</item>
+		<item>"Check it Out!"</item>
+		<item>"Delocated"</item>
+		<item>"Family Guy"</item>
+		<item>"Freaknik"</item>
+		<item>"Harvey Birdman"</item>
+		<item>"King of the Hill"</item>
+		<item>"Lucy, Daughter of the Devil"</item>
+		<item>"Metalocalypse"</item>
+		<item>"Mongo Wrestling Alliance"</item>
+		<item>"The Office"</item>
+		<item>"Sealab 2021"</item>
+		<item>"Squidbillies"</item>
+		<item>"Tim and Eric"</item>
+		<item>"Venture Bros."</item>
+		<item>"12 Oz. Mouse"</item>
+		<item>"Aqua Teen Hunger Force"</item>
+		<item>"The Boondocks"</item>
+		<item>"Childrens Hospital"</item>
+		<item>"The Drinky Crow Show"</item>
+		<item>"Fat Guy Stuck in the Internet"</item>
+		<item>"Frisky Dingo"</item>
+		<item>"Home Movies"</item>
+		<item>"Look Around You"</item>
+		<item>"Mary Shelley's Frankenhole"</item>
+		<item>"The Mighty Boosh"</item>
+		<item>"Moral Orel"</item>
+		<item>"Robot Chicken"</item>
+		<item>"Space Ghost"</item>
+		<item>"Superjail!"</item>
+		<item>"Titan Maximum"</item>
+		<item>"Xavier"</item>
+		<item>"General AS Discussion"</item>
+		<item>"AS Games"</item>
+		<item>"Show Suggestions"</item>
+		<item>"Site Support"</item>
+		<item>"Bumps"</item>
+    </string-array>
+    <string-array name="links_array">
+		<item>"http://boards.adultswim.com/t5/Incoherent-Babbling/bd-p/2/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Babbling/bd-p/9/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Rants/bd-p/8/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/quantized-television-psychotics/bd-p/tv-psychotics"</item>
+		<item>"http://boards.adultswim.com/t5/General-Games-Discussion/bd-p/generalgames/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/General-Music-Discussion/bd-p/generalmusic/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/General-Action-Discussion/bd-p/6/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/The-Big-O/bd-p/bigo/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Blood/bd-p/bloodPlus/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Cowboy-Bebop/bd-p/cowboybebop/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Fullmetal-Alchemist/bd-p/fullmetal/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/InuYasha/bd-p/inuyasha/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Moribito-Guardian-of-the-Spirit/bd-p/moribito/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Fan-Fiction/bd-p/fanfiction/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Bleach/bd-p/bleach/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Code-Geass/bd-p/codegeass/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Death-Note/bd-p/deathnote/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Ghost-in-the-Shell/bd-p/ghostshell/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Kekkaishi/bd-p/kekkaishi/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Other-Anime/bd-p/4/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/General-Comedy-Discussion/bd-p/5/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/American-Dad/bd-p/americandad/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Assy-McGee/bd-p/assy/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Check-It-Out-with-Steve-Brule/bd-p/checkitout/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Delocated/bd-p/delocated/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Family-Guy/bd-p/familyguy/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Freaknik-The-Musical/bd-p/freaknik/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Harvey-Birdman-Attorney-at-Law/bd-p/birdman/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/King-of-the-Hill/bd-p/kingofthehill/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Lucy-Daughter-of-the-Devil/bd-p/lucy/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Metalocalypse/bd-p/metal/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Mongo-Wrestling-Alliance/bd-p/mongowrestlingalliance/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/The-Office/bd-p/theoffice/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Sealab-2021/bd-p/sealab/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Squidbillies/bd-p/squidbillies/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Tim-Eric-Awesome-Show-Great-Job/bd-p/timanderic/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Venture-Bros/bd-p/venturebros/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/12-Oz-Mouse/bd-p/mouse/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Aqua-Teen-Hunger-Force/bd-p/athf/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/The-Boondocks/bd-p/boondocks/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Childrens-Hospital/bd-p/childrenshospital/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/The-Drinky-Crow-Show/bd-p/drinkycrow/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Fat-Guy-Stuck-in-Internet/bd-p/fatguy/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Frisky-Dingo/bd-p/frisky/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Home-Movies/bd-p/homemovies/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Look-Around-You/bd-p/lookaroundyou/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Mary-Shelley-s-Frankenhole/bd-p/frankenhole/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/The-Mighty-Boosh/bd-p/mightyboosh/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Moral-Orel/bd-p/moralorel/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Robot-Chicken/bd-p/robotchicken/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Space-Ghost-Coast-to-Coast/bd-p/spaceghost/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Superjail/bd-p/superjail/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Titan-Maximum/bd-p/titan/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Xavier-Renegade-Angel/bd-p/xavier/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/General-Adult-Swim-Discussion/bd-p/3/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Adult-Swim-Games/bd-p/asgames/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Show-Suggestions/bd-p/showsuggestions/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/AdultSwim-com-and-Site-Support/bd-p/support/page/1"</item>
+		<item>"http://boards.adultswim.com/t5/Bumps/bd-p/bumps/page/1"</item>
+    </string-array>
+    <string name="login">Login</string>
+    <string name="index">Board List</string>
+    <string-array name="float_title_array">
+    	<item>"None"</item>
+		<item>"Incoherent Babbling"</item>
+		<item>"Babbling"</item>
+		<item>"Rants"</item>
+		<item>"quantized television psychotics"</item>
+		<item>"General Games"</item>
+		<item>"General Music"</item>
+		<item>"General Action"</item>
+		<item>"The Big O"</item>
+		<item>"Blood+"</item>
+		<item>"Cowboy Bebop"</item>
+		<item>"Fullmetal Alchemist"</item>
+		<item>"InuYasha"</item>
+		<item>"Moribito"</item>
+		<item>"Fan Fiction"</item>
+		<item>"Bleach"</item>
+		<item>"Code Geass"</item>
+		<item>"Death Note"</item>
+		<item>"Ghost in the Shell"</item>
+		<item>"Kekkaishi"</item>
+		<item>"Other Anime"</item>
+		<item>"General Comedy"</item>
+		<item>"American Dad"</item>
+		<item>"Assy McGee"</item>
+		<item>"Check it Out!"</item>
+		<item>"Delocated"</item>
+		<item>"Family Guy"</item>
+		<item>"Freaknik"</item>
+		<item>"Harvey Birdman"</item>
+		<item>"King of the Hill"</item>
+		<item>"Lucy, Daughter of the Devil"</item>
+		<item>"Metalocalypse"</item>
+		<item>"Mongo Wrestling Alliance"</item>
+		<item>"The Office"</item>
+		<item>"Sealab 2021"</item>
+		<item>"Squidbillies"</item>
+		<item>"Tim and Eric"</item>
+		<item>"Venture Bros."</item>
+		<item>"12 Oz. Mouse"</item>
+		<item>"Aqua Teen Hunger Force"</item>
+		<item>"The Boondocks"</item>
+		<item>"Childrens Hospital"</item>
+		<item>"The Drinky Crow Show"</item>
+		<item>"Fat Guy Stuck in the Internet"</item>
+		<item>"Frisky Dingo"</item>
+		<item>"Home Movies"</item>
+		<item>"Look Around You"</item>
+		<item>"Mary Shelley's Frankenhole"</item>
+		<item>"The Mighty Boosh"</item>
+		<item>"Moral Orel"</item>
+		<item>"Robot Chicken"</item>
+		<item>"Space Ghost"</item>
+		<item>"Superjail!"</item>
+		<item>"Titan Maximum"</item>
+		<item>"Xavier"</item>
+		<item>"General AS Discussion"</item>
+		<item>"AS Games"</item>
+		<item>"Show Suggestions"</item>
+		<item>"Site Support"</item>
+		<item>"Bumps"</item>
+    </string-array>
+    <string-array name="float_value_array">
+    	<item>"none cut_here none"</item>
+		<item>"Incoherent Babbling cut_here http://boards.adultswim.com/t5/Incoherent-Babbling/bd-p/2/page/1"</item>
+		<item>"Babbling cut_here http://boards.adultswim.com/t5/Babbling/bd-p/9/page/1"</item>
+		<item>"Rants cut_here http://boards.adultswim.com/t5/Rants/bd-p/8/page/1"</item>
+		<item>"quantized television psychotics cut_here http://boards.adultswim.com/t5/quantized-television-psychotics/bd-p/tv-psychotics"</item>
+		<item>"General Games cut_here http://boards.adultswim.com/t5/General-Games-Discussion/bd-p/generalgames/page/1"</item>
+		<item>"General Music cut_here http://boards.adultswim.com/t5/General-Music-Discussion/bd-p/generalmusic/page/1"</item>
+		<item>"General Action cut_here http://boards.adultswim.com/t5/General-Action-Discussion/bd-p/6/page/1"</item>
+		<item>"The Big O cut_here http://boards.adultswim.com/t5/The-Big-O/bd-p/bigo/page/1"</item>
+		<item>"Blood+ cut_here http://boards.adultswim.com/t5/Blood/bd-p/bloodPlus/page/1"</item>
+		<item>"Cowboy Bebop cut_here http://boards.adultswim.com/t5/Cowboy-Bebop/bd-p/cowboybebop/page/1"</item>
+		<item>"Fullmetal Alchemist cut_here http://boards.adultswim.com/t5/Fullmetal-Alchemist/bd-p/fullmetal/page/1"</item>
+		<item>"Inuyasha cut_here http://boards.adultswim.com/t5/InuYasha/bd-p/inuyasha/page/1"</item>
+		<item>"Moribito cut_here http://boards.adultswim.com/t5/Moribito-Guardian-of-the-Spirit/bd-p/moribito/page/1"</item>
+		<item>"Fan Fiction cut_here http://boards.adultswim.com/t5/Fan-Fiction/bd-p/fanfiction/page/1"</item>
+		<item>"Bleach cut_here http://boards.adultswim.com/t5/Bleach/bd-p/bleach/page/1"</item>
+		<item>"Code Geass cut_here http://boards.adultswim.com/t5/Code-Geass/bd-p/codegeass/page/1"</item>
+		<item>"Death Note cut_here http://boards.adultswim.com/t5/Death-Note/bd-p/deathnote/page/1"</item>
+		<item>"Ghost in the Shell cut_here http://boards.adultswim.com/t5/Ghost-in-the-Shell/bd-p/ghostshell/page/1"</item>
+		<item>"Kekkaishi cut_here http://boards.adultswim.com/t5/Kekkaishi/bd-p/kekkaishi/page/1"</item>
+		<item>"Other Anime cut_here http://boards.adultswim.com/t5/Other-Anime/bd-p/4/page/1"</item>
+		<item>"General Comedy cut_here http://boards.adultswim.com/t5/General-Comedy-Discussion/bd-p/5/page/1"</item>
+		<item>"American Dad cut_here http://boards.adultswim.com/t5/American-Dad/bd-p/americandad/page/1"</item>
+		<item>"Assy McGee cut_here http://boards.adultswim.com/t5/Assy-McGee/bd-p/assy/page/1"</item>
+		<item>"Check it Out! cut_here http://boards.adultswim.com/t5/Check-It-Out-with-Steve-Brule/bd-p/checkitout/page/1"</item>
+		<item>"Delocated cut_here http://boards.adultswim.com/t5/Delocated/bd-p/delocated/page/1"</item>
+		<item>"Family Guy cut_here http://boards.adultswim.com/t5/Family-Guy/bd-p/familyguy/page/1"</item>
+		<item>"Freaknik cut_here http://boards.adultswim.com/t5/Freaknik-The-Musical/bd-p/freaknik/page/1"</item>
+		<item>"Harvey Birdman cut_here http://boards.adultswim.com/t5/Harvey-Birdman-Attorney-at-Law/bd-p/birdman/page/1"</item>
+		<item>"King of the Hill cut_here http://boards.adultswim.com/t5/King-of-the-Hill/bd-p/kingofthehill/page/1"</item>
+		<item>"Lucy, Daughter of the Devil cut_here http://boards.adultswim.com/t5/Lucy-Daughter-of-the-Devil/bd-p/lucy/page/1"</item>
+		<item>"Metalocalypse cut_here http://boards.adultswim.com/t5/Metalocalypse/bd-p/metal/page/1"</item>
+		<item>"Mongo Wrestling Alliance cut_here http://boards.adultswim.com/t5/Mongo-Wrestling-Alliance/bd-p/mongowrestlingalliance/page/1"</item>
+		<item>"The Office cut_here http://boards.adultswim.com/t5/The-Office/bd-p/theoffice/page/1"</item>
+		<item>"Sealab 2021 cut_here http://boards.adultswim.com/t5/Sealab-2021/bd-p/sealab/page/1"</item>
+		<item>"Squidbillies cut_here http://boards.adultswim.com/t5/Squidbillies/bd-p/squidbillies/page/1"</item>
+		<item>"Tim and Eric cut_here http://boards.adultswim.com/t5/Tim-Eric-Awesome-Show-Great-Job/bd-p/timanderic/page/1"</item>
+		<item>"Venture Bros. cut_here http://boards.adultswim.com/t5/Venture-Bros/bd-p/venturebros/page/1"</item>
+		<item>"12 Oz. Mouse cut_here http://boards.adultswim.com/t5/12-Oz-Mouse/bd-p/mouse/page/1"</item>
+		<item>"Aqua Teen Hunger Force cut_here http://boards.adultswim.com/t5/Aqua-Teen-Hunger-Force/bd-p/athf/page/1"</item>
+		<item>"Boondocks cut_here http://boards.adultswim.com/t5/The-Boondocks/bd-p/boondocks/page/1"</item>
+		<item>"Childrens Hospital cut_here http://boards.adultswim.com/t5/Childrens-Hospital/bd-p/childrenshospital/page/1"</item>
+		<item>"The Drinky Crow Show cut_here http://boards.adultswim.com/t5/The-Drinky-Crow-Show/bd-p/drinkycrow/page/1"</item>
+		<item>"Fat Guy Stuck in the Internet cut_here http://boards.adultswim.com/t5/Fat-Guy-Stuck-in-Internet/bd-p/fatguy/page/1"</item>
+		<item>"Frisky Dingo cut_here http://boards.adultswim.com/t5/Frisky-Dingo/bd-p/frisky/page/1"</item>
+		<item>"Home Movies cut_here http://boards.adultswim.com/t5/Home-Movies/bd-p/homemovies/page/1"</item>
+		<item>"Look Around You cut_here http://boards.adultswim.com/t5/Look-Around-You/bd-p/lookaroundyou/page/1"</item>
+		<item>"Mary Shelley's Frankenhole cut_here http://boards.adultswim.com/t5/Mary-Shelley-s-Frankenhole/bd-p/frankenhole/page/1"</item>
+		<item>"The Mighty Boosh cut_here http://boards.adultswim.com/t5/The-Mighty-Boosh/bd-p/mightyboosh/page/1"</item>
+		<item>"Moral Orel cut_here http://boards.adultswim.com/t5/Moral-Orel/bd-p/moralorel/page/1"</item>
+		<item>"Robot Chicken  cut_here http://boards.adultswim.com/t5/Robot-Chicken/bd-p/robotchicken/page/1"</item>
+		<item>"Space Ghost cut_here http://boards.adultswim.com/t5/Space-Ghost-Coast-to-Coast/bd-p/spaceghost/page/1"</item>
+		<item>"Superjail! cut_here http://boards.adultswim.com/t5/Superjail/bd-p/superjail/page/1"</item>
+		<item>"Titan Maximum cut_here http://boards.adultswim.com/t5/Titan-Maximum/bd-p/titan/page/1"</item>
+		<item>"Xavier cut_here http://boards.adultswim.com/t5/Xavier-Renegade-Angel/bd-p/xavier/page/1"</item>
+		<item>"General AS Discussion cut_here http://boards.adultswim.com/t5/General-Adult-Swim-Discussion/bd-p/3/page/1"</item>
+		<item>"AS Games cut_here http://boards.adultswim.com/t5/Adult-Swim-Games/bd-p/asgames/page/1"</item>
+		<item>"Show Suggestions cut_here http://boards.adultswim.com/t5/Show-Suggestions/bd-p/showsuggestions/page/1"</item>
+		<item>"Site Support cut_here http://boards.adultswim.com/t5/AdultSwim-com-and-Site-Support/bd-p/support/page/1"</item>
+		<item>"Bumps cut_here http://boards.adultswim.com/t5/Bumps/bd-p/bumps/page/1"</item>
+    </string-array>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/prv"
+        android:title="Previous page"
+        android:icon="@drawable/prevarrow"
+  />
+  <item android:id="@+id/paging"
+        android:title="All pages"
+        android:icon="@drawable/pagingarrow"
+  />
+  <item android:id="@+id/nxt"
+        android:title="Next page"
+        android:icon="@drawable/nextarrow"
+  />
+  <item android:id="@+id/login"
+        android:title="@string/login"
+        android:icon="@drawable/login"
+  />
+  <item android:id="@+id/replythread"
+        android:title="Reply"
+        android:icon="@drawable/pm"
+  />
+  	<item android:id="@+id/menu_more"
+    	android:title="More" 
+    	android:icon="@drawable/more_icon">
+    	<menu xmlns:android="http://schemas.android.com/apk/res/android">
+		  <item android:id="@+id/index"
+		        android:title="@string/index"
+		        android:icon="@drawable/index"
+		  />
+		  <item android:id="@+id/homescreen"
+		        android:title="Home"
+		        android:icon="@drawable/home"
+		  />
+		  <item android:id="@+id/inbox"
+		        android:title="Inbox"
+		        android:icon="@drawable/inbox"
+		  />
+		  <item android:id="@+id/refresh"
+		        android:title="Refresh"
+		        android:icon="@drawable/refresh"
+		  />
+		  <item android:id="@+id/newpm"
+		        android:title="New Private Message"
+		        android:icon="@drawable/pm"
+		  />
+		  <item android:id="@+id/prfs"
+		        android:title="Settings"
+		        android:icon="@drawable/settings"
+		  />
+		  <item android:id="@+id/searchMsgs"
+		        android:title="Search"
+		        android:icon="@drawable/search_icon"
+		  />
+		</menu>
+	</item>
+</menu>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    <string-array name="links_api_array">
+		<item>"2"</item>
+		<item>"9"</item>
+		<item>"8"</item>
+		<item>"generalgames"</item>
+		<item>"generalmusic"</item>
+		<item>"6"</item>
+		<item>"bigo"</item>
+		<item>"bloodPlus"</item>
+		<item>"cowboybebop"</item>
+		<item>"fullmetal"</item>
+		<item>"inuyasha"</item>
+		<item>"moribito"</item>
+		<item>"fanfiction"</item>
+		<item>"bleach"</item>
+		<item>"codegeass"</item>
+		<item>"deathnote"</item>
+		<item>"ghostshell"</item>
+		<item>"kekkaishi"</item>
+		<item>"4"</item>
+		<item>"5"</item>
+		<item>"americandad"</item>
+		<item>"assy"</item>
+		<item>"checkitout"</item>
+		<item>"delocated"</item>
+		<item>"familyguy"</item>
+		<item>"freaknik"</item>
+		<item>"birdman"</item>
+		<item>"kingofthehill"</item>
+		<item>"lucy"</item>
+		<item>"metal"</item>
+		<item>"mongowrestlingalliance"</item>
+		<item>"theoffice"</item>
+		<item>"sealab"</item>
+		<item>"squidbillies"</item>
+		<item>"timanderic"</item>
+		<item>"venturebros"</item>
+		<item>"mouse"</item>
+		<item>"athf"</item>
+		<item>"boondocks"</item>
+		<item>"childrenshospital"</item>
+		<item>"drinkycrow"</item>
+		<item>"fatguy"</item>
+		<item>"frisky"</item>
+		<item>"homemovies"</item>
+		<item>"lookaroundyou"</item>
+		<item>"frankenhole"</item>
+		<item>"mightyboosh"</item>
+		<item>"moralorel"</item>
+		<item>"robotchicken"</item>
+		<item>"spaceghost"</item>
+		<item>"superjail"</item>
+		<item>"titan"</item>
+		<item>"xavier"</item>
+		<item>"3"</item>
+		<item>"asgames"</item>
+		<item>"showsuggestions"</item>
+		<item>"support"</item>
+		<item>"bumps"</item>
+    </string-array>
+    
+    <string-array name="float_value_api_array">
+    	<item>"none cut_here none"</item>
+		<item>"Incoherent Babbling cut_here 2"</item>
+		<item>"Babbling cut_here 9"</item>
+		<item>"Rants cut_here 8"</item>
+		<item>"General Games cut_here generalgames"</item>
+		<item>"General Music cut_here generalmusic"</item>
+		<item>"General Action cut_here 6"</item>
+		<item>"The Big O cut_here bigo"</item>
+		<item>"Blood+ cut_here bloodPlus"</item>
+		<item>"Cowboy Bebop cut_here cowboybebop"</item>
+		<item>"Fullmetal Alchemist cut_here fullmetal"</item>
+		<item>"Inuyasha cut_here inuyasha"</item>
+		<item>"Moribito cut_here moribito"</item>
+		<item>"Fan Fiction cut_here fanfiction"</item>
+		<item>"Bleach cut_here bleach"</item>
+		<item>"Code Geass cut_here codegeass"</item>
+		<item>"Death Note cut_here deathnote"</item>
+		<item>"Ghost in the Shell cut_here ghostshell"</item>
+		<item>"Kekkaishi cut_here kekkaishi"</item>
+		<item>"Other Anime cut_here 4"</item>
+		<item>"General Comedy cut_here 5"</item>
+		<item>"American Dad cut_here americandad"</item>
+		<item>"Assy McGee cut_here assy"</item>
+		<item>"Check it Out! cut_here checkitout"</item>
+		<item>"Delocated cut_here delocated"</item>
+		<item>"Family Guy cut_here familyguy"</item>
+		<item>"Freaknik cut_here freaknik"</item>
+		<item>"Harvey Birdman cut_here birdman"</item>
+		<item>"King of the Hill cut_here kingofthehill"</item>
+		<item>"Lucy, Daughter of the Devil cut_here lucy"</item>
+		<item>"Metalocalypse cut_here metal"</item>
+		<item>"Mongo Wrestling Alliance cut_here mongowrestlingalliance"</item>
+		<item>"The Office cut_here theoffice"</item>
+		<item>"Sealab 2021 cut_here sealab"</item>
+		<item>"Squidbillies cut_here squidbillies"</item>
+		<item>"Tim and Eric cut_here timanderic"</item>
+		<item>"Venture Bros. cut_here venturebros"</item>
+		<item>"12 Oz. Mouse cut_here mouse"</item>
+		<item>"Aqua Teen Hunger Force cut_here athf"</item>
+		<item>"Boondocks cut_here boondocks"</item>
+		<item>"Childrens Hospital cut_here childrenshospital"</item>
+		<item>"The Drinky Crow Show cut_here drinkycrow"</item>
+		<item>"Fat Guy Stuck in the Internet cut_here fatguy"</item>
+		<item>"Frisky Dingo cut_here frisky"</item>
+		<item>"Home Movies cut_here homemovies"</item>
+		<item>"Look Around You cut_here lookaroundyou"</item>
+		<item>"Mary Shelley's Frankenhole cut_here frankenhole"</item>
+		<item>"The Mighty Boosh cut_here mightyboosh"</item>
+		<item>"Moral Orel cut_here moralorel"</item>
+		<item>"Robot Chicken  cut_here robotchicken"</item>
+		<item>"Space Ghost cut_here spaceghost"</item>
+		<item>"Superjail! cut_here superjail"</item>
+		<item>"Titan Maximum cut_here titan"</item>
+		<item>"Xavier cut_here xavier"</item>
+		<item>"General AS Discussion cut_here 3"</item>
+		<item>"AS Games cut_here asgames"</item>
+		<item>"Show Suggestions cut_here showsuggestions"</item>
+		<item>"Site Support cut_here support"</item>
+		<item>"Bumps cut_here bumps"</item>
+    </string-array>
+</resources>
